@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="smallscreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="widescreen.css">
+
+    <style>
+        .text-secondary{
+            color: #318dca;
+        }
+        h1.lg-heading{
+            font-size: 4em;
+        }
+        h2.sm-heading, h3.sm-heading {
+            margin-bottom: 2rem;
+            padding: 0.2rem 1rem;
+            background: rgba(22, 22, 22, 0.8);
+        }
+        .about-content{
+            font-size: 1.5em;
+        }
+        .about-content > *{
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="#">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="gallery.html">My Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1 class="lg-heading">
+                About
+                <span class="text-secondary">Me</span>
+                <hr>
+            </h1>
+            <div class="about-content">
+                Let me tell you a few things about myself:
+            </div>
+            <br>
+            <div class="about-content">
+                <div>I am familiar with </div>
+                <li>Technologies: Full Stack Web Development, Data Science, Cyber Security, Android Development</li>
+                <li>Frameworks : django, Scikit-learn, matplotlib, pandas, numpy, Android Studio</li>
+                <li>Languages : JavaScript, Python, Java, C++, C</li>
+                <li>Databases : MongoDB, MySQL</li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
