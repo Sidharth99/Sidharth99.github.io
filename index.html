@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="smallscreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="widescreen.css">
+    <style>
+        .portrait {
+            display: block;
+            width: 250px;
+            height: 250px;
+            background: url("passport.jpeg");
+            background-size: cover;
+            border-radius: 30%;
+            border: solid 3px #318dca;
+            flex: 2;
+        }
+        .text-secondary{
+            color: #318dca;
+        }
+        .lg-heading{
+            text-align: center;
+            width:270px;
+        }
+        h2.sm-heading, h3.sm-heading {
+            margin-bottom: 2rem;
+            padding: 0.2rem 1rem;
+            background: rgba(22, 22, 22, 0.8);
+            width:270px;
+            /* text-align: center; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="gallery.html">My Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="flex-container">
+                <div class="portrait"></div>
+                <div class="lorem-ipsum">
+                    <div>Hi there, I am Sidharth Jain.</div>
+                    <div>I am currently pursuing B.Tech in CSE from Mahaveer Institute of Science and Technology.</div>
+                    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, corrupti est culpa fugit quam placeat!</div>
+                </div>
+            </div>
+            <h1 class="lg-heading">
+                Sidharth
+                <span class="text-secondary">Jain</span>
+            </h1>
+            <h2 class="sm-heading">
+                Student &amp; Learner
+            </h2>
+        </div>
+    </div>
+</body>
+</html>
